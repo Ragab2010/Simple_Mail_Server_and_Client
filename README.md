@@ -36,13 +36,16 @@ The server application can be accessed via both terminal and web browser using H
 
 ### Overview
 The Simple Mail Server is a lightweight TCP-based server application designed to handle basic email functionalities such as sending, retrieving sent messages, and retrieving received messages. It utilizes SQLite for database management and JSON for communication between the server and clients.
-
 ### Components
 - **Server**: Handles incoming client connections and requests.
 - **ServerSocket**: Provides socket functionality for the server.
 - **SQLiteDatabase**: Manages the SQLite database for storing messages.
 - **ClientRequestHandler**: Handles client requests and interacts with the database.
 - **JsonHandler**: Serializes and deserializes JSON data for communication.
+- **TcpClientRequestHandler.h**: Defines the class responsible for handling client requests over TCP connections.
+- **HttpClientRequestHandle.h**: Defines the class responsible for handling client requests over HTTP connections.
+- **index.html**: Provides the front-end interface for the mail client application.
+
 
 ### Usage
 1. **Clone the Repository**: `git clone https://github.com/Ragab2010/Simple_HTTPWEB_TCP_Mail_Server_and_Client.git`
