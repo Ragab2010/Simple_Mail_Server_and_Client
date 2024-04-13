@@ -38,6 +38,7 @@ The server application can be accessed via both terminal and web browser using H
 The Simple Mail Server is a lightweight TCP-based server application designed to handle basic email functionalities such as sending, retrieving sent messages, and retrieving received messages. It utilizes SQLite for database management and JSON for communication between the server and clients.
 ### Components
 - **Server**: Handles incoming client connections and requests.
+- **JsonHandler**: Serializes and deserializes JSON data for communication with the server.
 - **ServerSocket**: Provides socket functionality for the server.
 - **SQLiteDatabase**: Manages the SQLite database for storing messages.
 - **ClientRequestHandler**: Handles client requests and interacts with the database.
